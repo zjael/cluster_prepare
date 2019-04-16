@@ -1,0 +1,5 @@
+---
+- include: disable-swap.yml
+
+- include: promisc.yml
+  when: promisc_interface is defined

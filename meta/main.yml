@@ -1,0 +1,16 @@
+galaxy_info:
+  author: Jakob Sjaelland
+  description: Preparing nodes for cluster
+  license: MIT
+  min_ansible_version: 2.4
+  platforms:
+    - name: Debian
+      versions:
+      - all
+  galaxy_tags:
+    - cluster
+    - kubernetes
+    - k8s
+    - k3s
+    - swarm
+  dependencies: []
