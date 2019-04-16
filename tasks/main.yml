@@ -3,3 +3,6 @@
 
 - include: promisc.yml
   when: promisc_interface is defined
+
+- include: cgroup.yml
+  when: ( ansible_facts.architecture is search "arm" )
